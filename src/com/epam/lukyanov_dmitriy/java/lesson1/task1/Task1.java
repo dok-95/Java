@@ -14,7 +14,7 @@ public class Task1 {
         System.out.println();
     }
 
-    public static void one() {
+    public static void swapMaxNegMinPos() {
         int bufArr[] = new int[20];
         System.arraycopy(a, 0, bufArr, 0, 20);
         int posMinPos = 0, posMaxNeg = 0, minPos = 11, maxNeg = -11;
@@ -37,7 +37,7 @@ public class Task1 {
         System.out.println();
     }
 
-    public static void two() {
+    public static void sumOddPos() {
         int sum = 0;
         for (int i = 0; i < 20; i += 2)
             sum += a[i];
@@ -45,7 +45,7 @@ public class Task1 {
         System.out.println("SUM = " + sum);
     }
 
-    public static void three() {
+    public static void negToZerro() {
         int bufArr[] = new int[20];
         System.arraycopy(a, 0, bufArr, 0, 20);
         for (int i = 0; i < 20; i++)
@@ -57,7 +57,7 @@ public class Task1 {
         System.out.println();
     }
 
-    public static void four() {
+    public static void x3PosBeforeNeg() {
         int bufArr[] = new int[20];
         System.arraycopy(a, 0, bufArr, 0, 20);
         for (int i = 1; i < 20; i++)
@@ -69,7 +69,7 @@ public class Task1 {
         System.out.println();
     }
 
-    public static void five() {
+    public static void difBetweenMeanAndMin() {
         int sum = 0;
         int min = 10;
         for (int i = 0; i < 20; i++) {
@@ -81,7 +81,7 @@ public class Task1 {
         System.out.println("Answer = " + (average - min));
     }
 
-    public static void six() {
+    public static void moreThen1OnOdd() {
         boolean notUnic[] = new boolean[20];
         for (int i = 0; i < 20; i++) {
             if (!notUnic[i]) {

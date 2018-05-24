@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vegetables>
+    <vegetable>
+        <name>Cabbage</name>
+        <type>Cabbage</type>
+        <calories>30</calories>
+        <proteins>15</proteins>
+        <fats>11</fats>
+        <carbohydrates>23</carbohydrates>
+        <vitamins>c</vitamins>
+        <color>green</color>
+        <shape>round</shape>
+        <way_for_eating>fresh</way_for_eating>
+    </vegetable>
+    <vegetable>
+        <name>Cucumber</name>
+        <type>Cucumber</type>
+        <calories>32</calories>
+        <proteins>21</proteins>
+        <fats>18</fats>
+        <carbohydrates>17</carbohydrates>
+        <vitamins>pp,c,b</vitamins>
+        <color>green</color>
+        <shape>oblong</shape>
+        <way_for_eating>fresh</way_for_eating>
+    </vegetable>
+    <vegetable>
+        <name>Onion</name>
+        <type>Amarylloid</type>
+        <calories>32</calories>
+        <proteins>31</proteins>
+        <fats>30</fats>
+        <carbohydrates>40</carbohydrates>
+        <vitamins>aa,b1,b2,pp,c</vitamins>
+        <color>white</color>
+        <shape>round</shape>
+        <way_for_eating>fresh</way_for_eating>
+    </vegetable>
+    <vegetable>
+        <name>Onion</name>
+        <type>Amarylloid</type>
+        <calories>22</calories>
+        <proteins>21</proteins>
+        <fats>20</fats>
+        <carbohydrates>30</carbohydrates>
+        <vitamins>aa,b1,b2,pp,c</vitamins>
+        <color>green</color>
+        <shape>elongated</shape>
+        <way_for_eating>fresh</way_for_eating>
+    </vegetable>
+    <vegetable>
+        <name>Radish</name>
+        <type>Radish sowing</type>
+        <calories>12</calories>
+        <proteins>10</proteins>
+        <fats>5</fats>
+        <carbohydrates>15</carbohydrates>
+        <vitamins>a, e, b1,b2, pp, b3, b6, c</vitamins>
+        <color>purple</color>
+        <shape>round</shape>
+        <way_for_eating>fresh</way_for_eating>
+    </vegetable>
+</vegetables>

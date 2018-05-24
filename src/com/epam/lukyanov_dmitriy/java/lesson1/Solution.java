@@ -13,12 +13,12 @@ public class Solution {
         int act = in.nextInt();
         if (act == 1) {
             Task1.genArr();
-            Task1.one();
-            Task1.two();
-            Task1.three();
-            Task1.four();
-            Task1.five();
-            Task1.six();
+            Task1.swapMaxNegMinPos();
+            Task1.sumOddPos();
+            Task1.negToZerro();
+            Task1.x3PosBeforeNeg();
+            Task1.difBetweenMeanAndMin();
+            Task1.moreThen1OnOdd();
         } else if (act == 2) {
             System.out.println("Enter subtask number:");
             Task2 task2 = new Task2();
@@ -27,24 +27,24 @@ public class Solution {
             if (subAct >= 1 && subAct <= 3) {
                 task2.getStrings();
                 if (subAct == 1) {
-                    task2.one();
+                    task2.MaxAndMinStrings();
                 } else if (subAct == 2) {
-                    task2.two();
+                    task2.StringsWitchLengthMoreThenAverage();
                 } else {
-                    task2.three();
+                    task2.StringsWitchLengthLessThenAverage();
                 }
             }
             else
             {
                 task2.getWords();
                 if(subAct==4){
-                    task2.four();
+                    task2.WordWithMaxDifferents();
                 }
                 if(subAct==5){
-                    task2.five();
+                    task2.WordWithAllDifferent();
                 }
                 if(subAct==6){
-                    task2.six();
+                    task2.WordAllNumbers();
                 }
             }
         }

@@ -35,7 +35,7 @@ public class Task2 {
         arrStrings = bufferString.split(" ");
     }
 
-    public void one() {
+    public void MaxAndMinStrings() {
         int largestStringPos = 0, smallestStringPos = 0;
         for (int i = 1; i < n; i++) {
             if (arrStrings[i].length() < arrStrings[smallestStringPos].length())
@@ -47,7 +47,7 @@ public class Task2 {
         System.out.println("Smallest string: " + arrStrings[smallestStringPos] + " " + "size: " + arrStrings[smallestStringPos].length());
     }
 
-    public void two() {
+    public void StringsWitchLengthMoreThenAverage() {
         int sumOfStringLength = 0;
         for (int i = 0; i < n; i++) {
             sumOfStringLength += arrStrings[i].length();
@@ -62,7 +62,7 @@ public class Task2 {
 
     }
 
-    public void three() {
+    public void StringsWitchLengthLessThenAverage() {
         int sumOfStringLength = 0;
         for (int i = 0; i < n; i++) {
             sumOfStringLength += arrStrings[i].length();
@@ -83,7 +83,7 @@ public class Task2 {
         return characterSet.size();
     }
 
-    public void four() {
+    public void WordWithMaxDifferents() {
         int ansPos = 0;
         for (int i = 1; i < n; i++) {
             if (differentCharacters(arrStrings[i]) < differentCharacters(arrStrings[ansPos]))
@@ -93,7 +93,7 @@ public class Task2 {
         System.out.println(arrStrings[ansPos]);
     }
 
-    public void five() {
+    public void WordWithAllDifferent() {
         for (int i = 0; i < n; i++) {
             if (differentCharacters(arrStrings[i]) == arrStrings[i].length()) {
                 System.out.println("Answer: " + arrStrings[i]);
@@ -102,7 +102,7 @@ public class Task2 {
         }
     }
 
-    public void six() {
+    public void WordAllNumbers() {
         boolean firstFound = false;
         String ans = "";
         boolean onlyNumbers;
